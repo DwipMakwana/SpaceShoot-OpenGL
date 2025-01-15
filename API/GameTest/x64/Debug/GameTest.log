@@ -1,0 +1,13 @@
+﻿  GameTest.cpp
+C:\Users\dwipm\Downloads\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\GameTest.cpp(108,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/GameTest.cpp')
+  
+C:\Users\dwipm\Downloads\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\GameTest.cpp(111,38): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/GameTest.cpp')
+  
+C:\Users\dwipm\Downloads\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\GameTest.cpp(112,37): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/GameTest.cpp')
+  
+  GameTest.vcxproj -> C:\Users\dwipm\Downloads\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\x64\Debug\GameTest.exe
+  C:\Users\dwipm\Downloads\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\\GameTest\glut\bin\x64\freeglut.dll
+  1 File(s) copied
