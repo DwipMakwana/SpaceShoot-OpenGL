@@ -1,13 +1,114 @@
-﻿  GameTest.cpp
-C:\Users\dwipm\Downloads\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\GameTest.cpp(108,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+﻿  stdafx.cpp
+  app.cpp
+  main.cpp
+  SimpleController.cpp
+  SimpleSound.cpp
+  SimpleSprite.cpp
+  Bullet.cpp
+  DebugUtils.cpp
+D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\Bullet.cpp(14,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/Bullet.cpp')
+  
+D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\Bullet.cpp(15,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/Bullet.cpp')
+  
+  ExplosionEffect.cpp
+D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\ExplosionEffect.cpp(19,43): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/ExplosionEffect.cpp')
+  
+D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\ExplosionEffect.cpp(20,43): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/ExplosionEffect.cpp')
+  
+D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\ExplosionEffect.cpp(21,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/ExplosionEffect.cpp')
+  
+  Galaxy.cpp
+D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\Galaxy.cpp(30,32): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/Galaxy.cpp')
+  
+D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\Galaxy.cpp(77,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/Galaxy.cpp')
+  
+D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\Galaxy.cpp(209,32): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/Galaxy.cpp')
+  
+D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\Galaxy.cpp(230,29): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/Galaxy.cpp')
+  
+D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\Galaxy.cpp(231,29): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/Galaxy.cpp')
+  
+D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\Galaxy.cpp(250,38): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/Galaxy.cpp')
+  
+D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\Galaxy.cpp(175,14): warning C4101: 'debugText': unreferenced local variable
+  (compiling source file '/Galaxy.cpp')
+  
+D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\Galaxy.cpp(322,16): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/Galaxy.cpp')
+  
+D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\Galaxy.cpp(326,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/Galaxy.cpp')
+  
+D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\Galaxy.cpp(584,52): warning C4244: '=': conversion from 'GLdouble' to 'float', possible loss of data
+  (compiling source file '/Galaxy.cpp')
+  
+D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\Galaxy.cpp(585,69): warning C4244: '=': conversion from 'GLdouble' to 'float', possible loss of data
+  (compiling source file '/Galaxy.cpp')
+  
+D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\Galaxy.cpp(659,32): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/Galaxy.cpp')
+  
+D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\Galaxy.cpp(667,32): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file '/Galaxy.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory(723,103): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory(723,103): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory(723,103): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory(723,103): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory(723,103): warning C4244:         ]
+  (compiling source file '/Galaxy.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory(723,103):
+      the template instantiation context (the oldest one first) is
+          D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\Galaxy.cpp(241,39):
+          see reference to function template instantiation 'void std::vector<ExplosionEffect,std::allocator<ExplosionEffect>>::emplace_back<float&,float&,int>(float &,float &,int &&)' being compiled
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(862,24):
+          see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<float&,float&,int>(float &,float &,int &&)' being compiled
+          with
+          [
+              _Ty=ExplosionEffect
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(780,20):
+          see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<float&,float&,int>(float &,float &,int &&)' being compiled
+          with
+          [
+              _Ty=ExplosionEffect
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(798,27):
+          see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,float&,float&,int>(_Alloc &,_Objty *const ,float &,float &,int &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<ExplosionEffect>,
+              _Ty=ExplosionEffect,
+              _Objty=ExplosionEffect
+          ]
+  
+  GameTest.cpp
+D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\GameTest.cpp(108,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
   (compiling source file '/GameTest.cpp')
   
-C:\Users\dwipm\Downloads\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\GameTest.cpp(111,38): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\GameTest.cpp(111,38): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   (compiling source file '/GameTest.cpp')
   
-C:\Users\dwipm\Downloads\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\GameTest.cpp(112,37): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\GameTest.cpp(112,37): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   (compiling source file '/GameTest.cpp')
   
-  GameTest.vcxproj -> C:\Users\dwipm\Downloads\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\x64\Debug\GameTest.exe
-  C:\Users\dwipm\Downloads\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\\GameTest\glut\bin\x64\freeglut.dll
+  miniaudio.cpp
+  Renderer3D.cpp
+  Spaceship.cpp
+  stb_image.cpp
+  UISystem.cpp
+  Generating Code...
+  GameTest.vcxproj -> D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\x64\Debug\GameTest.exe
+  D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\\GameTest\glut\bin\x64\freeglut.dll
   1 File(s) copied
