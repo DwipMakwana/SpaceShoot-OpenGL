@@ -631,6 +631,8 @@ void Galaxy::RenderDirectionArrows() {
     float padding = 20.0f; // Padding from screen edge
 
     for (const auto& planet : planets) {
+        if (planet.isCollected) continue;
+
         ScreenPosition pos = GetPlanetScreenPosition(planet, camera);
 
         if (!pos.isOnScreen) {

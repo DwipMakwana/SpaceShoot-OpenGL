@@ -28,6 +28,10 @@ float mouseWorldY = 0.0f;
 const float MOVE_SPEED = 2.0f;
 const float CAM_HEIGHT = 0.0f;
 const float CAM_DISTANCE = 150.0f;
+const float INITIAL_ZOOM = 1500.0f;  // Starting zoom distance
+const float ZOOM_DURATION = 2.0f;   // Time in seconds for zoom effect
+float currentZoomTime = 0.0f;       // Track zoom animation progress
+bool isZooming = true;             // Track if initial zoom is active
 
 //------------------------------------------------------------------------
 // Called before first update. Do any initial setup here.
@@ -73,7 +77,7 @@ void Init() {
 
     // Set initial camera position
     Camera& camera = renderer->GetCamera();
-    camera.SetPosition(0.0f, 0.0f, CAM_DISTANCE);
+    camera.SetPosition(0.0f, 0.0f, INITIAL_ZOOM);
     camera.SetRotation(0.0f, 0.0f, 0.0f);
 }
 
@@ -88,18 +92,47 @@ void UpdateCamera(float deltaTime) {
     camera.GetPosition(camX, camY, camZ);
     spaceship->GetPosition(shipX, shipY, shipZ);
 
-    // Calculate target camera position
-    float targetX = shipX;
-    float targetY = shipY + CAM_HEIGHT;
-    float targetZ = shipZ + CAM_DISTANCE;
+    // Handle initial zoom animation
+    if (isZooming) {
+        currentZoomTime += deltaTime * 0.001f;;
+        if (currentZoomTime >= ZOOM_DURATION) {
+            isZooming = false;
+            currentZoomTime = ZOOM_DURATION;
+        }
 
-    // Smooth camera movement
-    float lag = 0.05f;
-    camX = camX * (1 - lag) + targetX * lag;
-    camY = camY * (1 - lag) + targetY * lag;
-    camZ = camZ * (1 - lag) + targetZ * lag;
+        // Calculate zoom progress (0 to 1) with easing
+        float progress = currentZoomTime / ZOOM_DURATION;
+        progress = 1.0f - (1.0f - progress) * (1.0f - progress); // Ease out quadratic
 
-    camera.SetPosition(camX, camY, camZ);
+        // Interpolate between initial zoom and final camera distance
+        float currentDistance = INITIAL_ZOOM + (CAM_DISTANCE - INITIAL_ZOOM) * progress;
+
+        // Calculate target camera position with current zoom level
+        float targetX = shipX;
+        float targetY = shipY + CAM_HEIGHT;
+        float targetZ = shipZ + currentDistance;
+
+        // Instant camera movement during zoom
+        camX = targetX;
+        camY = targetY;
+        camZ = targetZ;
+
+        camera.SetPosition(camX, camY, camZ);
+    }
+    else {
+        // Normal gameplay camera following
+        float targetX = shipX;
+        float targetY = shipY + CAM_HEIGHT;
+        float targetZ = shipZ + CAM_DISTANCE;
+
+        // Smooth camera movement
+        float lag = 0.05f;
+        camX = camX * (1 - lag) + targetX * lag;
+        camY = camY * (1 - lag) + targetY * lag;
+        camZ = camZ * (1 - lag) + targetZ * lag;
+
+        camera.SetPosition(camX, camY, camZ);
+    }
 
     // Calculate angle to look at ship
     float dx = shipX - camX;
@@ -235,6 +268,10 @@ void Update(float deltaTime) {
         delete spaceship;
         spaceship = new Spaceship();
         spaceship->SetPosition(0.0f, 0.0f, 0.0f);
+
+        // Reset zoom animation
+        currentZoomTime = 0.0f;
+        isZooming = true;
 
         // Reset UI visibility
         gameOverText->visible = false;

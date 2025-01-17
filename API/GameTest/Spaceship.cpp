@@ -17,6 +17,8 @@ Spaceship::Spaceship()
 }
 
 void Spaceship::Move(float dx, float dy) {
+    if (GetAmmo() <= 0) return;
+
     // Apply acceleration to velocity
     velocityX += dx * ACCELERATION;
     velocityY += dy * ACCELERATION;

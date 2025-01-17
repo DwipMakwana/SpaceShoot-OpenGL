@@ -1,28 +1,4 @@
-﻿  stdafx.cpp
-  app.cpp
-  main.cpp
-  SimpleController.cpp
-  SimpleSound.cpp
-  SimpleSprite.cpp
-  Bullet.cpp
-  DebugUtils.cpp
-D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\Bullet.cpp(14,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  (compiling source file '/Bullet.cpp')
-  
-D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\Bullet.cpp(15,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  (compiling source file '/Bullet.cpp')
-  
-  ExplosionEffect.cpp
-D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\ExplosionEffect.cpp(19,43): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  (compiling source file '/ExplosionEffect.cpp')
-  
-D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\ExplosionEffect.cpp(20,43): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  (compiling source file '/ExplosionEffect.cpp')
-  
-D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\ExplosionEffect.cpp(21,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  (compiling source file '/ExplosionEffect.cpp')
-  
-  Galaxy.cpp
+﻿  Galaxy.cpp
 D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\Galaxy.cpp(30,32): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
   (compiling source file '/Galaxy.cpp')
   
@@ -56,10 +32,10 @@ D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-AP
 D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\Galaxy.cpp(585,69): warning C4244: '=': conversion from 'GLdouble' to 'float', possible loss of data
   (compiling source file '/Galaxy.cpp')
   
-D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\Galaxy.cpp(659,32): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\Galaxy.cpp(661,32): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   (compiling source file '/Galaxy.cpp')
   
-D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\Galaxy.cpp(667,32): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\Galaxy.cpp(669,32): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   (compiling source file '/Galaxy.cpp')
   
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory(723,103): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
@@ -93,22 +69,6 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.3313
               _Objty=ExplosionEffect
           ]
   
-  GameTest.cpp
-D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\GameTest.cpp(108,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  (compiling source file '/GameTest.cpp')
-  
-D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\GameTest.cpp(111,38): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-  (compiling source file '/GameTest.cpp')
-  
-D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\GameTest\GameTest.cpp(112,37): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-  (compiling source file '/GameTest.cpp')
-  
-  miniaudio.cpp
-  Renderer3D.cpp
-  Spaceship.cpp
-  stb_image.cpp
-  UISystem.cpp
-  Generating Code...
   GameTest.vcxproj -> D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\x64\Debug\GameTest.exe
   D:\Projects\C++ Projects\Spaceship_Ubisoft-Toronto-NEXT-2024-2025-Programming-API\API\\GameTest\glut\bin\x64\freeglut.dll
   1 File(s) copied

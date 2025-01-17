@@ -40,6 +40,7 @@ public:
     static constexpr int CIRCLE_SEGMENTS = 32;               // Smoothness of circle
 
     static constexpr float FIRE_RATE = 0.065f;
+    static constexpr float MAX_SPEED = 100.0f;        // Maximum speed
 
 private:
     float fireTimer;           // New: Timer for shooting
@@ -53,7 +54,6 @@ private:
     bool isAlive = true;       // Track if spaceship is destroyed
 
     float velocityX, velocityY, velocityZ;  // Current velocity
-    static constexpr float MAX_SPEED = 100.0f;        // Maximum speed
     static constexpr float ACCELERATION = 4.0f;     // Acceleration rate
     static constexpr float DECELERATION = 0.98f;    // Deceleration factor
 
